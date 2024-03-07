@@ -59,3 +59,11 @@ contactForm.onsubmit=(e)=>{
     xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     
 }
+
+let typingText = new Typed('#text', {
+    strings: ["Fullstack developer", "Web developer", "Software developer", "Software engineer", "Front-end developer","Back-end developer","Digital experties"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 50,
+    backDelay: 2000,
+})
